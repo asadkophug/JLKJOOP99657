@@ -57,7 +57,7 @@ client.user.setGame(``,"")
        .addField('Server', message.guild.name)
        .addField('Sender', message.author.username)
        .addField('Message', args)
-       .setImage("https://cdn.discordapp.com/attachments/508057272509923333/508057579247894538/welcome.png")
+       .setImage("https://cdn.discordapp.com/attachments/500091196304130073/509080666898432001/logo.png")
        .setThumbnail(message.author.avatarURL)
        .setFooter(copy, client.user.avatarURL);
     m.send({ embed: bc })
@@ -78,7 +78,7 @@ client.user.setGame(``,"")
 
 
 
-    const adminprefix = "-v";
+    const adminprefix = "+";
 const devs = ['448656937601597452','446463286838427648'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
