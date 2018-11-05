@@ -79,7 +79,7 @@ client.user.setGame(``,"")
 
 
     const adminprefix = "+";
-const devs = ['448656937601597452','446463286838427648'];
+const devs = ['477108070409830424',''];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
